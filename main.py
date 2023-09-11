@@ -33,53 +33,11 @@ def prediction(Education, ApplicantIncome, CoapplicantIncome,LoanAmount,  Credit
 
 def main():
 
-    html_temp = """
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loan Magic - Your Loan Eligibility Wizard</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-        }
-        .header {
-            background-color: #2196F3;
-            padding: 20px;
-            text-align: center;
-            color: white;
-        }
-        .title {
-            font-size: 36px;
-            margin-bottom: 10px;
-        }
-        .subtitle {
-            font-size: 24px;
-            margin-top: 0;
-        }
-        .content {
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin: 20px;
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-    <div class="header">
-        <div class="title">Loan Magic</div>
-        <div class="subtitle">Your Loan Eligibility Wizard</div>
-    </div>
-
-</body>
-</html>
-
+    html_temp =  """ 
+        <div style ="background-color:green;padding:15px"> 
+        <h1 style ="color:black;text-align:center;">Automatic Loan Eligibility Prediction System</h1> 
+        </div> 
+        
         """
     
     st.markdown(html_temp, unsafe_allow_html= True)
